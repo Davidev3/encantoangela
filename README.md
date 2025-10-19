@@ -154,7 +154,7 @@ const products = [
 ### Formulário de Contato
 O formulário de contato está **totalmente funcional** e configurado com Formspree:
 
-- ✅ **Envia emails reais** para `angelagalindo78@yahoo.com.br`
+- ✅ **Envia emails reais** para:
 - ✅ **Proteção contra spam** incluída
 - ✅ **Resposta automática** para clientes
 - ✅ **Interface profissional** com confirmações
@@ -181,13 +181,6 @@ Para colocar o website no ar:
 3. **SSL**: Certifique-se de que o site tenha certificado SSL
 4. **CDN**: Considere usar um CDN para melhor performance
 
-## 📞 Suporte
-
-Para dúvidas ou suporte técnico:
-- Email: contato@encantodaangela.com.br
-- WhatsApp: (11) 99999-9999
-- Instagram: @encantodaangela
-
 ## 📄 Licença
 
 Este projeto foi desenvolvido exclusivamente para Encanto da Ângela. Todos os direitos reservados.
@@ -197,3 +190,4 @@ Este projeto foi desenvolvido exclusivamente para Encanto da Ângela. Todos os d
 **Desenvolvido com ❤️ para Encanto da Ângela**
 
 *Website artesanal que combina elegância, funcionalidade e experiência do usuário excepcional.*
+
