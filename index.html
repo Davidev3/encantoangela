@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encanto da Ângela - Sabonetes Artesanais de Luxo</title>
+    <meta name="description" content="Descubra os sabonetes artesanais únicos da Encanto da Ângela. Produtos naturais feitos com amor e cuidado artesanal para sua pele.">
+    <meta name="keywords" content="sabonetes artesanais, produtos naturais, cuidados com a pele, artesanato, Encanto da Ângela">
+    <meta name="author" content="Encanto da Ângela">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Encanto da Ângela - Sabonetes Artesanais de Luxo">
+    <meta property="og:description" content="Descubra os sabonetes artesanais únicos da Encanto da Ângela. Produtos naturais feitos com amor e cuidado artesanal.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://encantodaangela.com.br">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="encanto-da-angela.css">
+</head>
+<body>
+    <!-- Floating Elements Background -->
+    <div class="floating-elements">
+        <div class="floating-petal"></div>
+        <div class="floating-petal"></div>
+        <div class="floating-petal"></div>
+        <div class="floating-petal"></div>
+        <div class="floating-petal"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>Encanto da Ângela</h1>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#products" class="nav-link">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#testimonials" class="nav-link">Depoimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="nav-actions">
+                    <div class="cart-icon" id="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cart-count">0</span>
+                    </div>
+                    <button class="btn btn-primary" id="shop-now-btn">Comprar Agora</button>
+                    <div class="nav-toggle" id="nav-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Sinta o cuidado em cada detalhe — produtos artesanais feitos com amor.
+                </h1>
+                <p class="hero-subtitle">
+                    Descubra a beleza natural dos sabonetes artesanais, criados com ingredientes selecionados e muito carinho para cuidar da sua pele.
+                </p>
+                <button class="btn btn-primary btn-large" id="explore-btn">
+                    Explorar Nossa Coleção
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-placeholder">
+                    <i class="fas fa-spa"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Produtos</h2>
+                <p class="section-subtitle">Cada produto é cuidadosamente elaborado com ingredientes naturais e muito amor artesanal</p>
+            </div>
+            
+            <div class="products-grid" id="products-grid">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">A História do Encanto da Ângela</h2>
+                    <p class="about-description">
+                        Tudo começou com uma paixão simples: criar produtos que cuidassem da pele de forma natural e carinhosa. 
+                        Ângela, fundadora da marca, sempre acreditou que o cuidado pessoal deveria ser um momento de prazer e conexão com a natureza.
+                    </p>
+                    <p class="about-description">
+                        Cada sabonete é feito à mão, com ingredientes selecionados e técnicas artesanais passadas de geração em geração. 
+                        Nossa missão é levar até você não apenas um produto, mas uma experiência de cuidado e bem-estar.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>100% Natural</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-hand-holding-heart"></i>
+                            <span>Feito à Mão</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <span>Feito com Amor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="angel.jpg" alt="Ângela - Fundadora do Encanto da Ângela" class="about-image-real" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="about-image-placeholder" style="display: none;">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+                <p class="section-subtitle">Depoimentos reais de quem já experimentou nossos produtos</p>
+            </div>
+            
+            <div class="testimonials-carousel">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Os sabonetes da Ângela são simplesmente maravilhosos! A pele fica macia e com um cheiro delicioso. 
+                            Recomendo para toda a família!"
+                        </p>
+                        <div class="testimonial-author">
+                            <strong>Maria Silva</strong>
+                            <span>Cliente há 2 anos</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Produtos de qualidade excepcional! O cuidado artesanal é visível em cada detalhe. 
+                            Já virou minha marca preferida para cuidados com a pele."
+                        </p>
+                        <div class="testimonial-author">
+                            <strong>Ana Costa</strong>
+                            <span>Cliente há 1 ano</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Encantada com a delicadeza e eficácia dos produtos. A Ângela realmente sabe o que faz. 
+                            Produtos que fazem a diferença no dia a dia!"
+                        </p>
+                        <div class="testimonial-author">
+                            <strong>Juliana Santos</strong>
+                            <span>Cliente há 6 meses</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-controls">
+                <button class="testimonial-btn prev" id="prev-testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="testimonial-btn next" id="next-testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Estamos aqui para tirar suas dúvidas e ajudar você a encontrar os produtos perfeitos</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p>(11) 98204-3400</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <div>
+                            <h3>Instagram</h3>
+                            <p>@encantodaangela</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>angelagalindo78@yahoo.com.br</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form" action="https://formspree.io/f/xeordodr" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Seu email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+                    </div>
+                    <!-- Formspree configuration -->
+                    <input type="hidden" name="_to" value="angelagalindo78@yahoo.com.br">
+                    <input type="hidden" name="_subject" value="Nova mensagem do site Encanto da Ângela">
+                    <input type="hidden" name="_replyto" value="">
+                    <input type="hidden" name="_next" value="https://yourwebsite.com/obrigado.html">
+                    <input type="hidden" name="_captcha" value="false">
+                    <button type="submit" class="btn btn-primary">
+                        Enviar Mensagem
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Encanto da Ângela</h3>
+                    <p>Produtos artesanais feitos com amor e cuidado para sua pele.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/encantodaangela/" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#products">Produtos</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Políticas</h4>
+                    <ul>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Política de Troca</a></li>
+                        <li><a href="#">Política de Envio</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>angelagalindo78@yahoo.com.br</p>
+                    <p>(11) 98204-3400</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Encanto da Ângela. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Modal -->
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-modal-content">
+            <div class="cart-header">
+                <h3>Seu Carrinho</h3>
+                <button class="close-cart" id="close-cart">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <!-- Cart items will be dynamically loaded here -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <strong>Total: R$ <span id="cart-total">0,00</span></strong>
+                </div>
+                <button class="btn btn-primary" id="checkout-btn">
+                    Finalizar Compra
+                    <i class="fas fa-credit-card"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+  
+    <script src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+    
+  
+    <script src="encanto-da-angela.js"></script>
+</body>
+</html>
